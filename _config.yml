@@ -1,0 +1,99 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+# npm install hexo-cli -g
+
+# 站点配置
+title: tomoncle
+subtitle: tomoncle
+description: Do as you would be done by others.
+author: Tom Lee
+language: en
+timezone:
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://tomoncle.github.io
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# sitemap
+# 依赖 ：npm install hexo-generator-sitemap --save
+#     ：npm install hexo-generator-baidu-sitemap --save
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# 分页
+## Set per_page to 0 to disable pagination
+per_page: 5
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+# RSS订阅 . 安装依赖包 npm install hexo-generator-feed --save
+plugin:
+  - hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+## Themes: https://hexo.io/themes/
+theme: next  # git clone https://github.com/iissnan/hexo-theme-next themes/next
+
+# Search
+#     algolia search: 安装依赖包：npm install hexo-algolia --save
+#     在主题配置文件打开algolia
+algolia:
+  applicationID: '6NFT839C0P1'
+  apiKey: '9d2da1e94178f2e64089e2d9184f436a2'
+  adminApiKey: '3ff6eb1d00c7191cbe0df44241b63bee3'
+  indexName: 'tomoncle.github.io'
+  chunkSize: 1000
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy: # 部署相关配置
+    type: git # 使用 Git 提交,会打包到 .deploy_git/目录进行上传
+    repo: https://github.com/tomoncle/tomoncle.github.io.git # 就是存放博客的仓库地址
