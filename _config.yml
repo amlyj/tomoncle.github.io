@@ -86,9 +86,9 @@ theme: next  # git clone https://github.com/iissnan/hexo-theme-next themes/next
 #     algolia search: 安装依赖包：npm install hexo-algolia --save
 #     在主题配置文件打开algolia
 algolia:
-  applicationID: '6NFT839C0P1'
-  apiKey: '9d2da1e94178f2e64089e2d9184f436a2'
-  adminApiKey: '3ff6eb1d00c7191cbe0df44241b63bee3'
+  applicationID: '6NFT839C0P'
+  apiKey: '9d2da1e94178f2e64089e2d9184f436a'
+  adminApiKey: '3ff6eb1d00c7191cbe0df44241b63bee'
   indexName: 'tomoncle.github.io'
   chunkSize: 1000
 
