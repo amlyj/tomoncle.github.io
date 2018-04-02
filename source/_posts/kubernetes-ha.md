@@ -1,5 +1,5 @@
 ---
-title: Kubernetes-High-Availability
+title: Kubernetes集群高可用配置
 date: 2017-07-08 14:30:21
 tags: [HA]
 categories: kubernetes
@@ -10,7 +10,6 @@ categories: kubernetes
 > apiserver do cluster,controller-manager and scheduler do HA
 > servers(centos7):192.168.137.145~147
 
-<!-- more -->
 ## 环境准备工作
 
     #关闭防火墙
@@ -25,6 +24,7 @@ categories: kubernetes
     
     yum -y install etcd kubernetes 
 
+<!-- more -->
 ## ETCD集群
 获取etcd集群token
     

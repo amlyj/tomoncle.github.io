@@ -18,21 +18,22 @@ date: 2017-07-08 08:59:24
 ## 关于Java方面
 > Java工作中及自己研究过的技术
 
-* [Spring](): aop, ioc, transaction... 与其他框架的整合.
-* [Spring-boot](): jar/war run app， 微服务.
-* [Spring-mvc]()
-* [Sping-data]()
-* [hibernate]()
-* [struts2]()
-* [mybatis]()
-* [spring-struts2-hibernate](): 一个简单的ssh框架
-* [spring-springMVC-mybatis](): 一个简单的ssm框架
-* [spring-redis](): spring与redis集群的整合，完全使用注解实现．支持主从，与分布式集群
-* [spring-mongo]()：一个`spring+mongo` 的简单例子
-* [spring-mq]()：一个`spring+active-mq`的简单例子
-* [zookeeper]()：命名服务，分布式锁服务．基本的api操作．
-* [dubbo]()
-* [maven]()
+* [Spring](https://github.com/tomoncle/JavaStudy/tree/master/aric-spring/aric-spring-samples): aop, ioc, transaction... 与其他框架的整合.
+* [Spring-boot](https://github.com/tomoncle/JavaStudy/tree/master/aric-spring/aric-spring-boot): jar/war run app， 微服务.
+* [Spring-mvc](https://github.com/tomoncle/JavaStudy/tree/master/aric-spring/aric-spring-frame/aric-spring-frame-ssm): 使用实例
+* [Sping-data](https://github.com/tomoncle/JavaStudy/tree/master/aric-spring/aric-spring-data): 使用实例及整合redis集群
+* [hibernate](https://github.com/tomoncle/JavaStudy/tree/master/aric-spring/aric-spring-frame/aric-spring-frame-ssh): 使用实例
+* [struts2](https://github.com/tomoncle/JavaStudy/tree/master/aric-spring/aric-spring-frame/aric-spring-frame-ssh): 使用实例
+* [mybatis](https://github.com/tomoncle/JavaStudy/tree/master/aric-spring/aric-spring-frame/aric-spring-frame-ssh): 使用实例
+* [spring-struts2-hibernate](https://github.com/tomoncle/JavaStudy/tree/master/aric-spring/aric-spring-frame/aric-spring-frame-ssh): 一个简单的ssh框架
+* [spring-springMVC-mybatis](https://github.com/tomoncle/JavaStudy/tree/master/aric-spring/aric-spring-frame/aric-spring-frame-ssh): 一个简单的ssm框架
+* [spring-redis](https://github.com/tomoncle/JavaStudy/tree/master/aric-spring/aric-spring-data/aric-spring-data-redis): spring与redis集群的整合，完全使用注解实现．支持主从，与分布式集群
+* [spring-mongo](https://github.com/tomoncle/JavaStudy/tree/master/aric-spring/aric-spring-data/aric-spring-data-mongodb)：一个`spring+mongo` 的简单例子
+* [spring-mq](https://github.com/tomoncle/JavaStudy/tree/master/aric-spring/aric-spring-mq)：一个`spring+active-mq`基于注解的实现
+* [zookeeper](https://github.com/tomoncle/JavaStudy/tree/master/aric-spring/aric-spring-zookeeper)：命名服务，分布式锁服务．基本的api操作．
+* [dubbo](https://github.com/tomoncle/JavaStudy/tree/master/aric-spring/aric-spring-dubbo): springboot+dubbo+zookeeper实现分布式服务
+* [maven](https://github.com/tomoncle/JavaStudy/tree/master/aric-spring)
+
 
 ---
 ## 关于Python方面
@@ -43,9 +44,9 @@ date: 2017-07-08 08:59:24
 * [flask](): 编写内部的NFS开放api
 * [scrapy](): 空闲时间爬点有意思的数据
 * 爬虫: 写个爬虫下载一些教学视频及教学资料:
-　 * [46G教学视频]()
-  * [系列课程]()
-  * [WEB开发]()
+  * [46G教学视频爬取]()
+  * [系列课程爬取及自动归档]()
+  * [WEB开发教程爬16G]()
   * ...
 
 
